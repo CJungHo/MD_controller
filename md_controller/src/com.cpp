@@ -29,7 +29,7 @@ int InitSerial(void)
 {
     try
     {
-        ser.setPort("/dev/ttyUSB0");
+        ser.setPort(Com.nPort);
         ser.setBaudrate(Com.nBaudrate);
         serial::Timeout to = serial::Timeout::simpleTimeout(1667); //1667 when baud is 57600, 0.6ms
         ser.setTimeout(to);                                        //2857 when baud is 115200, 0.35ms

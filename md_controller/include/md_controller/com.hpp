@@ -69,6 +69,7 @@ typedef struct {
     BYTE fgChk;
     BYTE byChkSum, byMaxDataNum, byDataNum;
 
+    string nPort;
     int nIDPC, nIDMDUI, nIDMDT, nRMID;
     int nBaudrate, nWheelLength, fgDirSign;
     short sSetDia, sSetWheelLen, sSetGear;

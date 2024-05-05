@@ -29,6 +29,7 @@ int main(int argc, char *argv[]) {
     //Motor driver settup-------------------------------------------------------------------------------
     node->declare_parameter("MDUI", 184);
     node->declare_parameter("MDT", 183);
+    node->declare_parameter("Port", "/dev/ttyUSB0");
     node->declare_parameter("Baudrate", 57600);
     node->declare_parameter("ID", 1);
     node->declare_parameter("GearRatio", 15);
@@ -36,6 +37,7 @@ int main(int argc, char *argv[]) {
 
     node->get_parameter("MDUI", Com.nIDMDUI);
     node->get_parameter("MDT", Com.nIDMDT);
+    node->get_parameter("Port", Com.nPort);
     node->get_parameter("Baudrate", Com.nBaudrate);
     node->get_parameter("ID", Motor.ID);
     node->get_parameter("GearRatio", Motor.GearRatio);

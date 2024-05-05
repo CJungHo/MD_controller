@@ -2,10 +2,12 @@
 This is a package that makes MDROBOT's motor driver available in ROS2(humble).
 
 ## run
-        #run motor controller
+```
+#run motor controller
         
-        ~$ ros2 launch md_controller md_controller.launch.py
+~$ ros2 launch md_controller md_controller.launch.py
 
-        #control motor
+#control motor
 
-        ~$ ros2 run md_teleop md_teleop_key_node
+~$ ros2 run md_teleop md_teleop_key_node
+```

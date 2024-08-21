@@ -11,7 +11,9 @@ Change parameters suitable for motor driver and motor.
 
 ## Dependencies
 ```
-There is no official release of the serial package available for ROS2, so you need to install an unofficial version that is compatible with ROS2.
+There is no official release of the serial package available for ROS2,
+so you need to install an unofficial version that is compatible with ROS2.
+To install it, follow the steps below.
 
 ~$ git clone https://github.com/RoverRobotics-forks/serial-ros2.git
 ~$ cd serial-ros2

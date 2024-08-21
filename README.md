@@ -10,11 +10,10 @@ Change parameters suitable for motor driver and motor.
 <img src="https://github.com/CJungHo/MD_controller/assets/91372509/191e4049-032f-4910-bbbc-4b158db60aea"  width="300" height="250"/>
 
 ## Dependencies
-```
 There is no official release of the serial package available for ROS2,
 so you need to install an unofficial version that is compatible with ROS2.
 To install it, follow the steps below.
-
+```
 ~$ git clone https://github.com/RoverRobotics-forks/serial-ros2.git
 ~$ cd serial-ros2
 ~$ mkdir build

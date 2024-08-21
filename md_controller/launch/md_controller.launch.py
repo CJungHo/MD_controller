@@ -36,7 +36,7 @@ def generate_launch_description():
     parameters=[{
       "MDUI":184,
       "MDT":183,
-      "Port":"dev/ttyUSB0",
+      "Port":"/dev/ttyUSB0",
       "Baudrate":57600,
       "ID":2,
       "GearRatio":25,

@@ -11,7 +11,7 @@ Change parameters suitable for motor driver and motor.
 
 ## Dependencies
 ```
-ROS2 does not provide a Serial library by default, so it needs to be installed separately.
+There is no official release of the serial package available for ROS2, so you need to install an unofficial version that is compatible with ROS2.
 
 ~$ git clone https://github.com/RoverRobotics-forks/serial-ros2.git
 ~$ cd serial-ros2

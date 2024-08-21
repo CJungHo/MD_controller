@@ -13,6 +13,16 @@ Change parameters suitable for motor driver and motor.
 ```
 ROS2 does not provide a Serial library by default, so it needs to be installed separately.
 
+~$ git clone https://github.com/RoverRobotics-forks/serial-ros2.git
+~$ cd serial-ros2
+~$ mkdir build
+~$ cd build
+~$ cmake ..
+~$ make
+~$ cd ..
+~$ colcon build --packages-select serial
+~$ cd build
+~$ sudo make install
 ```
 
 ## run
